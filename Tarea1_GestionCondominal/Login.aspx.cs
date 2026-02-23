@@ -18,7 +18,7 @@ namespace Tarea1_GestionCondominal
 {
     new Usuario { TipoId = TipoIdentificacion.Fisica, Identificacion = "1-1111-1111", Nombre = "Juan", Apellidos = "Pérez Solano", FechaNacimiento = new DateTime(1985, 4, 12), NumeroFilial = 101, TieneConstruccion = true, Email = "juan@mail.com", Password = "123456789", AceptaTerminos = true, perfil = Acceso.Administrador },
 
-    new Usuario { TipoId = TipoIdentificacion.DIMEX, Identificacion = "2-2222-2222", Nombre = "María", Apellidos = "Castro Mora", FechaNacimiento = new DateTime(1992, 8, 25), NumeroFilial = 102, TieneConstruccion = false, Email = "maria@mail.com", Password = "hashed_password", AceptaTerminos = true, perfil = Acceso.Condomino },
+    new Usuario { TipoId = TipoIdentificacion.DIMEX, Identificacion = "2-2222-2222", Nombre = "María", Apellidos = "Castro Mora", FechaNacimiento = new DateTime(1992, 8, 25), NumeroFilial = 102, TieneConstruccion = false, Email = "maria@mail.com", Password = "123456789", AceptaTerminos = true, perfil = Acceso.Condomino },
 
     new Usuario { TipoId = TipoIdentificacion.Pasaporte, Identificacion = "3-3333-3333", Nombre = "John", Apellidos = "Smith Doe", FechaNacimiento = new DateTime(1980, 1, 15), NumeroFilial = 103, TieneConstruccion = true, Email = "john@mail.com", Password = "hashed_password", AceptaTerminos = true, perfil = Acceso.Condomino },
 
