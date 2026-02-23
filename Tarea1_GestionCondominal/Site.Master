@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Tarea1_GestionCondominal.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <nav class="sidebar">
+        <h2><i class="fas fa-rocket"></i>AdminPanel</h2>
+        <ul class="sidebar-menu">
+            <li><i class="fas fa-tachometer-alt"></i><%= menu1 %> </li>
+        </ul>
+    </nav>
+
+
+    <div class="main-content">
+        <header>
+            <h3>Panel de Control</h3>
+            <div class="user-info">
+                <span>Hola, <strong><%= user.Nombre %></strong> FF# <strong><%= user.NumeroFilial %></strong></span>
+                <i class="fas fa-user-circle fa-lg" style="margin-left: 10px;"></i>
+            </div>
+        </header>
+
+        <main class="content-body">
+            <form runat="server">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            </form>
+        </main>
+    </div>
+
+
+
+
+    <asp:ContentPlaceHolder ID="scripts" runat="server" />
+</body>
+</html>
