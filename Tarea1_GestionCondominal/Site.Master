@@ -27,7 +27,8 @@
             <h3>Panel de Control</h3>
             <div class="user-info">
                 <span>Hola, <strong><%= user.Nombre %></strong> FF# <strong><%= user.NumeroFilial %></strong></span>
-                <i class="fas fa-user-circle fa-lg" style="margin-left: 10px;"></i>
+                  <i class="fa-solid fa-arrow-right-from-bracket  fa-lg" style="margin-left: 10px;" onclick="window.location.href='Login.aspx'" ></i>
+   
             </div>
         </header>
 

@@ -17,8 +17,6 @@ namespace Tarea1_GestionCondominal
             if (!IsPostBack)
             {
                 List<ActividadBase> lista = Session["actividades"] as List<ActividadBase>;
-
-                // Convertimos la lista de C# a un String JSON
                 var serializer = new JavaScriptSerializer();
                 ActividadesJson = serializer.Serialize(lista);
             }

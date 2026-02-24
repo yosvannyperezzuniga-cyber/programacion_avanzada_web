@@ -51,8 +51,6 @@ namespace Tarea1_GestionCondominal
 
             if (lista != null)
             {
-                // 2. Buscar el primer usuario que coincida con correo Y contraseña
-                // Usamos StringComparison para evitar problemas de mayúsculas/minúsculas en el email
                 Usuario usuarioEncontrado = lista.FirstOrDefault(u =>
                     u.Email.Equals(email.Text, StringComparison.OrdinalIgnoreCase) &&
                     u.Password == password.Text);

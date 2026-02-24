@@ -30,10 +30,10 @@ namespace Tarea1_GestionCondominal
                 }
                 else {
 
-                    // Creamos la lista que aceptará cualquier objeto que herede de ActividadBase
+                  
                     List<ActividadBase> listaActividades = new List<ActividadBase>();
 
-                    // 1. Una Reunión Virtual
+ 
                     listaActividades.Add(new Reunion
                     {
                         Titulo = "Asamblea General Ordinaria",
@@ -48,7 +48,7 @@ namespace Tarea1_GestionCondominal
                         Estado = "Próxima"
                     });
 
-                    // 2. Una Actividad Social
+     
                     listaActividades.Add(new ActividadSocial
                     {
                         Titulo = "Fiesta de Halloween",
@@ -64,7 +64,7 @@ namespace Tarea1_GestionCondominal
 
                     });
 
-                    // 3. Un Recordatorio
+ 
                     listaActividades.Add(new Recordatorio
                     {
                         Titulo = "Corte de Agua Programado",
@@ -75,7 +75,7 @@ namespace Tarea1_GestionCondominal
                         Estado = "En curso"
                     });
 
-                    // 4. Una Reunión para filiales específicas (Comité)
+         
                     listaActividades.Add(new Reunion
                     {
                         Titulo = "Reunión de Comité de Seguridad",
@@ -90,7 +90,7 @@ namespace Tarea1_GestionCondominal
                         Estado = "Próxima"
                     });
 
-                    // 5. Otra Actividad Social (Formal)
+  
                     listaActividades.Add(new ActividadSocial
                     {
                         Titulo = "Cena de Gala de Fin de Año",

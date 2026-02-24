@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|c:\\users\\gianina\\documents\\github\\programacion_avanzada_web\\tarea1_gestioncondominal\\scripts\\registro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|solutionrelative:tarea1_gestioncondominal\\scripts\\registro.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|c:\\users\\gianina\\documents\\github\\programacion_avanzada_web\\tarea1_gestioncondominal\\scripts\\redirect.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|solutionrelative:tarea1_gestioncondominal\\scripts\\redirect.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|c:\\users\\gianina\\documents\\github\\programacion_avanzada_web\\tarea1_gestioncondominal\\scripts\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|solutionrelative:tarea1_gestioncondominal\\scripts\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|c:\\users\\gianina\\documents\\github\\programacion_avanzada_web\\tarea1_gestioncondominal\\scripts\\actividades.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AECDC782-46FD-4A5F-9FF1-D418EC7B6AAE}|Tarea1_GestionCondominal\\Tarea1_GestionCondominal.csproj|solutionrelative:tarea1_gestioncondominal\\scripts\\actividades.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "registro.js",
+              "DocumentMoniker": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\registro.js",
+              "RelativeDocumentMoniker": "Tarea1_GestionCondominal\\Scripts\\registro.js",
+              "ToolTip": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\registro.js",
+              "RelativeToolTip": "Tarea1_GestionCondominal\\Scripts\\registro.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-24T02:55:05.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "redirect.js",
+              "DocumentMoniker": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\redirect.js",
+              "RelativeDocumentMoniker": "Tarea1_GestionCondominal\\Scripts\\redirect.js",
+              "ToolTip": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\redirect.js",
+              "RelativeToolTip": "Tarea1_GestionCondominal\\Scripts\\redirect.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-24T02:55:03.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.js",
+              "DocumentMoniker": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\login.js",
+              "RelativeDocumentMoniker": "Tarea1_GestionCondominal\\Scripts\\login.js",
+              "ToolTip": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\login.js",
+              "RelativeToolTip": "Tarea1_GestionCondominal\\Scripts\\login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-24T02:55:00.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "actividades.js",
+              "DocumentMoniker": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\actividades.js",
+              "RelativeDocumentMoniker": "Tarea1_GestionCondominal\\Scripts\\actividades.js",
+              "ToolTip": "C:\\Users\\Gianina\\Documents\\GitHub\\programacion_avanzada_web\\Tarea1_GestionCondominal\\Scripts\\actividades.js",
+              "RelativeToolTip": "Tarea1_GestionCondominal\\Scripts\\actividades.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-24T02:54:38.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

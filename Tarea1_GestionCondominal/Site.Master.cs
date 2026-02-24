@@ -16,7 +16,7 @@ namespace Tarea1_GestionCondominal
         {
             if (Session["Usuario"] == null)
             {
-                // Si la sesión es nula, redirigir al login
+    
                 Response.Redirect("Login.aspx");
             }
 

@@ -65,7 +65,7 @@ namespace Tarea1_GestionCondominal
         protected void Save_Click(object sender, EventArgs e)
         {
             int index = int.Parse(hfEditIndex.Value);
-            List<ActividadBase> lista = Session["ListaActividades"] as List<ActividadBase> ?? new List<ActividadBase>();
+            List<ActividadBase> lista = Session["actividades"] as List<ActividadBase> ?? new List<ActividadBase>();
 
             ActividadBase actividad;
                 string tipoSeleccionado = ddlTipoActividad.SelectedValue;
@@ -77,8 +77,6 @@ namespace Tarea1_GestionCondominal
                         actividad = new Reunion()
                         {
                             FechaHoraReunion = DateTime.Parse(txtReunionFecha.Text),
-                            // Nota: Para DuracionEstimada (TimeSpan), podrías necesitar un formato específico 
-                            // o un parsing manual si es un string libre. Aquí un ejemplo simple:
                             DuracionEstimada = TimeSpan.FromHours(2),
                             Agenda = txtReunionAgenda.Text,
                             UbicacionPresencial = txtReunionUbicacion.Text,
@@ -146,7 +144,7 @@ namespace Tarea1_GestionCondominal
                 lista[index] = actividad;
                 hfEditIndex.Value = "-1"; 
             }
-            Session["ListaActividades"] = lista;
+            Session["actividades"] = lista;
             Response.Redirect(Request.RawUrl);
 
         }
